@@ -10,7 +10,7 @@ on:
 jobs:
   static-analysis:
     name: Run cppcheck
-    uses: nasa/cFS/.github/workflows/static-analysis.yml@main
+    uses: nasa/cFS/.github/workflows/static-analysis-reusable.yml@dev
     with:
       strict-dir-list:
         -Iaa/arp/inc -Iaa/as/inc -Iaa/fwp/inc -Iaa/nc/inc -Ibpa/bi/inc -Ibpa/ct/inc 
